@@ -1,0 +1,67 @@
+.head {
+    position: relative;
+    margin-top: 100px;
+    padding: 50px 0 50px 0;
+    display: flex;
+    align-items: flex-end;
+
+    @media ($m-m) {
+        margin-top: 130px;
+        height: 500px;
+        padding: 0 0 100px 0;
+    }
+}
+
+.head__bg {
+    position: absolute;
+    background-image: url('/src/images/bg/sota-bg.jpg');
+    background-position: center;
+    left: 0;
+    right: 0;
+    bottom: -65%;
+    width: 100%;
+    height: 100%;
+
+    // @media ($m-m) {
+    //     bottom: -390px;
+    // }
+}
+
+.head__inner {
+    position: relative;
+
+}
+
+.head__logo {
+    padding-bottom: 20px;
+
+    @media ($m-m) {
+        padding-bottom: 40px;
+    }
+}
+
+.head__head{
+    width: 100%;
+
+    @media ($m-m) {
+        max-width: 620px;
+    }
+}
+
+.head__head-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    
+}
+
+.head__head-subtitle {
+    max-width: 60%;
+    font-size: 16px;
+    line-height: 1.27em; 
+
+    @media ($m-l) {
+        font-size: 18px;
+    }
+}

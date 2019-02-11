@@ -1,0 +1,52 @@
+.target {
+    
+    position: relative;
+    padding-top: 30px;
+    
+    @media ($m-s) {
+        padding-top: 40px;
+    }
+
+    @media ($m-m) {
+        padding-top: 50px;
+    }
+}
+
+
+.target__head {
+    width: 100%;
+    padding-bottom: 45px;
+
+    @media ($m-s) {
+        max-width: 620px;
+        
+    }
+
+    @media ($m-l) {
+        max-width: 620px;
+        padding-bottom: 175px;
+    }
+}
+
+.target__head-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.24em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+    @media ($m-m) {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+}
+
+.target__head-subtitle {
+    max-width: 90%;
+    font-size: 16px;
+    line-height: 1.27em;
+
+    @media ($m-l) {
+        font-size: 18px;
+    }
+}

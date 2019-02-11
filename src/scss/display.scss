@@ -1,0 +1,16 @@
+.display {
+    position: relative;
+    padding: 50px 20px 25px 20px;
+
+    @media ($m-l) {
+        padding: 70px 0 45px 0;
+    }
+}
+
+.display__pic {
+    
+    & > img {
+        width: 100%;
+    }
+}
+

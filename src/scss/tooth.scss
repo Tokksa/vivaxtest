@@ -1,0 +1,25 @@
+.tooth {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    display: block;
+    padding-top: 116.6667%;
+  }
+
+  @media ($m-m) {
+    max-width: none;
+    margin: 0;
+  }
+}
+
+.tooth__img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}

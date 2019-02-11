@@ -1,0 +1,134 @@
+.prism__pic {
+
+@media ($m-l) {
+    position: absolute;
+    width: 70%;
+
+
+
+    &--pic1 {
+        background-repeat: no-repeat;
+        background-image: url('/src/images/prism/red1.png');
+        background-position: center;
+        width: 331px;
+        height: 246px;
+        top: -577px;
+        right: 0;
+        left: 1030px;
+        animation: floating 3s ease-out infinite;
+    }
+    
+    &--pic2 {
+        background-repeat: no-repeat;
+        background-image: url('/src/images/prism/blue1.png');
+        background-position: center;
+        width: 331px;
+        height: 246px;
+        bottom: 54px;
+        right: 0;
+        left: 616px;
+        animation: floating 5s ease-out alternate infinite;
+    }
+    
+    &--pic3 {
+        background-repeat: no-repeat;
+        background-image: url('/src/images/prism/green1.png');
+        background-position: center;
+        width: 483px;
+        height: 360px;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        left: 848px;
+        animation: floating 7s ease-out infinite;
+    }
+}
+
+}
+
+.products__pic-prism {
+    position: absolute;
+    z-index: 2;
+    bottom: -30px;
+    width: 80px;
+    
+    
+    &--right {
+
+        right: 0;
+    }
+
+    &--left {
+        left: 0px;
+    }
+
+    @media ($m-s) {
+        width: 150px;
+        bottom: -40px;
+        
+        &--right {
+            left: 650px;
+            right: 0;
+        }
+    
+        &--left {
+            left: -30px;
+            right: 0;
+        }
+    }
+
+    @media ($m-m) {
+        width: 250px;
+        bottom: -110px;
+
+    
+    
+    &--right {
+        left: 840px;
+        right: 0;
+    }
+
+    &--left {
+        left: -90px;
+        right: 0;
+    }
+    }
+
+    @media ($m-l) {
+        width: auto;
+        bottom: -170px;
+
+    
+    
+    &--right {
+        left: 805px;
+        right: 0;
+    }
+
+    &--left {
+        left: -150px;
+        right: 0;
+        
+    }
+    }
+}
+
+.block__prism {
+    position: absolute;
+    left: 615px;
+
+}
+
+.prism-img {
+    position: absolute;
+
+
+    &--right {
+        bottom: -220px;
+       left: 290px;
+    }
+
+    &--left {
+        bottom: -70px;
+    }
+}
